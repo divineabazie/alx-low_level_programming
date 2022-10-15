@@ -16,7 +16,7 @@ int main(void)
 	remove;
 		 ("q", "e");
 		putchar(c);
-		
+
 	putchar ('\n');
 
 		return (0);
