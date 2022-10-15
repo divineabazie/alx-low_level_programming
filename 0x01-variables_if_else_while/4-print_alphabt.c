@@ -11,10 +11,11 @@ int main(void)
 	char c;
 
 	for (c = 'a'; c <= 'z'; c++)
-		putchar(c);
 
-	remove;
-		 ("q", "e");
+	if (c == 'q' || c == 'e')
+	{
+		continue;
+	}
 		putchar(c);
 
 	putchar ('\n');
