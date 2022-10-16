@@ -8,15 +8,15 @@
 
 int main(void)
 {
-	char i;
+	char c;
 
-	for (i = 'a'; i <= 'z'; i++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-	if(i == 'e' || i == 'q')
-
+	if (c == 'e' || c == 'q')
+	{
 		continue;
-
-		putchar(i);
+		putchar(c);
+	}
 	}
 	putchar('\n');
 
