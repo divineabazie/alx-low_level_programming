@@ -14,7 +14,7 @@ int main(void)
 
 	x = x % 10;
 
-	for (x = 0; x <= 9; '\n', x++)
+	for (x = 0; x <= 9; '\n'; x++)
 	{
 	printf("%d", x);
 	}
