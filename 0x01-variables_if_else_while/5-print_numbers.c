@@ -9,7 +9,7 @@
 int main(void)
 {
 	int x;
-	int x = 0;
+	x = 0;
 
 	x = x % 10;
 
