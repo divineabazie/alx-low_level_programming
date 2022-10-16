@@ -10,7 +10,7 @@ int main(void)
 {
 	int x;
 
-	x = n % 10;
+	x = x % 10;
 
 	for (x = 9; x <= 9; x++)
 	{
