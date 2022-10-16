@@ -11,8 +11,8 @@ int main(void)
 	int x;
 	int y;
 
-	x = 0;
-	for (x = 0; x <= 10; ++x)
+	x = '0';
+	for (x = '0'; x <= '9'; ++x)
 		putchar(x);
 
 	y = 'a';
