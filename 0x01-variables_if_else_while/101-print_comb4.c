@@ -20,9 +20,9 @@ int main(void)
 	{
 	if (x < y && y < z)
 	{
-	putchar(x);
-	putchar(y);
-	putchar(z);
+	putchar('0' + x);
+	putchar('0' + y);
+	putchar('0' + z);
 
 	if (x != 7 || y != 8 || z != 9)
 	{
