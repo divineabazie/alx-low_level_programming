@@ -20,7 +20,7 @@ int main(void)
 	putchar(' ');
 	{
 	putchar('0' + y);
-	if (x <= 98 && y <= 99)
+	if (x == 98 && y == 99)
 		continue;
 
 	putchar(' ');
