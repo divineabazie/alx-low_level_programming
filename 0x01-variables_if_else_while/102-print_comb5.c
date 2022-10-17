@@ -16,12 +16,12 @@ int main(void)
 	for (y = 0; y <= 99; y++)
 
 	if (x <= 98)
-	putchar('0' + x)
+	putchar('0' + x);
 	putchar(' ');
 	{
-	putchar('0' + y)
+	putchar('0' + y);
 	if (x <= 98 && y <= 99)
-		continue
+		continue;
 
 	putchar(' ');
 	putchar(',');
