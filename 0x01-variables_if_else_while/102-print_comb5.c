@@ -19,7 +19,7 @@ int main(void)
 	{
 	putchar('0' + x);
 	putchar('0' + y);
-	
+
 	if (x != 9 || y != 9)
 	{
 	putchar(',');
@@ -28,8 +28,8 @@ int main(void)
 	}
 	}
 	}
-	putchar('\n')
+	putchar('\n');
 
-	return (0)
+	return (0);
 
 }
