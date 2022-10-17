@@ -14,14 +14,23 @@ int main(void)
 	for (x = '0'; x <= '9'; x++)
 	{
 	for (y = '0'; y <= '9'; y++)
-	}
 	{
-	if (x ! = y)
+	if (x < y)
+	{
+	putchar('0' + x);
+	putchar('0' + y);
+
+	if (x != 8 || y != 9)
+	{
+	putchar (',');
+	putchar(' ');
 	}
-	putchar(x, y)
+	}
+	}
+	}
 
-	putchar('\n')
+	putchar('\n');
 
-	return (0)
+	return (0);
 
 }
