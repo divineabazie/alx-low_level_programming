@@ -14,18 +14,19 @@ int main(void)
 	for (x = 0; x <= 98; x++)
 	{
 	for (y = 0; y <= 99; y++)
-	
-	if ( x <= 98)
+
+	if (x <= 98)
 	{
-	putchar(' ')
+	putchar(' ');
 	if (x <= 98 && y <= 99)
+		continue;
 	{
-	putchar (' ')
-	putchar (',')
+	putchar(' ');
+	putchar(',');
 	}
 	}
 	}
-	
+
 	putchar('\n');
 
 	return (0);
