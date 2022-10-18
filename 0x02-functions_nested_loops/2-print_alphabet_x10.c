@@ -7,7 +7,7 @@
  * Return: Always 0
  */
 
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	int x;
 	int y;
@@ -18,8 +18,6 @@ void print_alphabet_x10(void);
 		_putchar(y);
 	}
 
-	_putchar('\n')
-
-
+	_putchar('\n');
 
 }
