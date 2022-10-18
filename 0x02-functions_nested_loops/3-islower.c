@@ -13,7 +13,7 @@ int _islower(int c)
 {
 	int x;
 
-	if (c >= '1' && c <= '0')
+	if (c >= 'a' && c <= 'z')
 		x = 1;
 
 	else
