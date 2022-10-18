@@ -4,25 +4,22 @@
 /**
  * _islower - a function that checks for lowercase characters
  *
+ *@c: c
+ *
+ * Return: int
  */
 
-_islower(void)
+int _islower(int c)
 {
-	int c;
+	int x;
 
-	for (c = 'a'; c <= 'z'; c++)
-	{
-	if ("c is lowercase")
-		_putchar(c);
-	}
-	return (0);
-	
-	{
-	else if ("c is otherwise")
+	if (c >= '0' && c <= '1')
+		x = 1;
 
-		_putchar(c); 
-	}
-		return (1);
-	
+	else
+		x = 0;
+
+	return (x);
+
 
 }
