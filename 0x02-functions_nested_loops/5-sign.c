@@ -15,7 +15,7 @@ int print_sign(int n)
 	int y;
 
 	if (n == 0)
-		x = 0, y = 0;
+		x = 0, y = '0';
 
 	else if (n > 0)
 		x = 1, y = '+';
