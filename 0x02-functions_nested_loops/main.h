@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+#define main_h
 
 /**
  * file:main.h
