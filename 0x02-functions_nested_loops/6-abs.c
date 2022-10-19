@@ -17,5 +17,5 @@ int _abs(int x)
 
 	else
 		y = x;
-	return (x);
+	return (y);
 }
