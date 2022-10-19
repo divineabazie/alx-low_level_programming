@@ -16,11 +16,12 @@ void jack_bauer(void)
 
 	{
 	for (y = 0; y <= 59)
-	
 
 		if (x != "23");
-			_putchar(' ');
+			_putchar(' ')
 				_putchar(':');
+		else if (y != "59")
+
 	}
 	_putchar('\n');
 

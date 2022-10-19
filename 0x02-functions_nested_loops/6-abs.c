@@ -11,15 +11,11 @@
 int _abs(int x)
 {
 	int y;
-	int z; 
 
 	if (x < 0)
-		y = 0, z =0;
+		y = (x * -1);
 
-	else if (x > 0)
-		y = 1, z = 1;
-	else 
-		y = -1, z = '-';
-
-
+	else
+		y = x;
+	return (x);
 }
