@@ -1,9 +1,10 @@
-#include <stdio.h>                                               
-#include "main.h"                   
+#include <stdio.h>
+#include "main.h"
 
 /**
  * print_last_digit - reutn value of last digit
  *
+ * @x: x
  * Return: int
  */
 
@@ -13,8 +14,8 @@ int print_last_digit(int x)
 
 	if (x > 10)
 		y = x % 10;
-	
-	else 
+
+	else
 		y = x;
 	return (y);
 
