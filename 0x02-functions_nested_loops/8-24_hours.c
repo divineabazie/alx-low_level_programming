@@ -4,7 +4,7 @@
 /**
  * jack_bauer - prints every minute of the day
  *
- * Return: Always 0
+ * Return: 24 hour clock line by line
  */
 
 void jack_bauer(void)
