@@ -15,10 +15,10 @@ int _isdigit(int c)
 	for (c = '0'; c <= '9'; c++)
 	{
 	if (c != '9')
-		x = 1;
+		x = '1';
 
 	else
-		x = 0;
+		x = '0';
 	}
 
 	return (x);
