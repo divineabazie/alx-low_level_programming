@@ -19,7 +19,7 @@ int _isdigit(int c)
 
 	else
 		x = 0;
-	}
-	return (x);
 
+	return (x);
+	}
 }
