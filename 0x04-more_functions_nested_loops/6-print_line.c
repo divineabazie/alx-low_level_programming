@@ -13,8 +13,8 @@ void print_line(int n)
 
 	int x;
 
-	x = 0;
-	if (n > 0)
+	x = 1;
+	if (n > 1)
 	{
 	while (x < n)
 
