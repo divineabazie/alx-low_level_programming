@@ -11,17 +11,15 @@ int main(void)
 {
 	int x;
 
-	for (x = 0; x <= 100; x++)
+	while (x <= 100)
 	{
 	if ((x % 3 == 0) && (x % 5 == 0))
-		printf("FizzBuzz	");
+		printf("FizzBuzz ");
 
-	else if (x % 3 == 0)
-	       printf("Fizz	");
+	else if (x % 5 == 0)
+		printf("Buzz "); 
 
-	else(x % 5 == 0)
-	 	printf("Buzz	");
+	else printf("Fizz ");
 	}
-printf('\n');
-
+	_putchar('\n');
 }
