@@ -22,5 +22,7 @@ int main(void)
 	else
 		printf("Fizz ");
 	}
-	_putchar('\n');
+	printf("%d", x);
+
+	printf('\n');
 }
