@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * fizz_buzz - print fizz for multiples of 3 and buzz for multiples of 5
+ * main - print fizz for multiples of 3 and buzz for multiples of 5
  *
  * Return: Always 0
  */
@@ -17,9 +17,10 @@ int main(void)
 		printf("FizzBuzz ");
 
 	else if (x % 5 == 0)
-		printf("Buzz "); 
+		printf("Buzz ");
 
-	else printf("Fizz ");
+	else
+		printf("Fizz ");
 	}
 	_putchar('\n');
 }
