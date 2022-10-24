@@ -17,6 +17,4 @@ void swap_int(int *a, int *b)
 	*a = *b;
 
 	*b = temp;
-
-	printf("a = %p, b = %p", a, b);
 }
