@@ -4,7 +4,7 @@
 
 /**
  *_strlen - a function that returns the length of a string
- *@s: string lenth declared
+ *@*s: string lenth declared
  * Return: Always 0
  */
 
