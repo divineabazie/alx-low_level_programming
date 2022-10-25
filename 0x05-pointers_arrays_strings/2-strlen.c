@@ -11,9 +11,9 @@
 int _strlen(char *s)
 {
 
-	int length = _strlen(s);
+	int length = strlen("*s");
 
-	printf("%d\n", length);
+	printf("length of string is %d", length);
 
 	return (0);
 }
