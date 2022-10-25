@@ -4,7 +4,7 @@
 
 /**
  *_strlen - a function that returns the length of a string
- *@*s: string lenth declared
+ *@s: string lenth declared
  * Return: Always 0
  */
 
@@ -13,11 +13,10 @@ int _strlen(char *s)
 
 	int x = 0;
 
-
-	for(; *s != '\0'; x++)
+	for (*s != '\0'; x++)
 	{
-		x++
-	}	
+		x++;
+	}
 
 		return (x);
 }
