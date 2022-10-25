@@ -11,9 +11,13 @@
 int _strlen(char *s)
 {
 
-	int length = strlen("*s");
+	int x = 0;
 
-	printf("length of string is %d", length);
 
-	return (0);
+	for(; *s != '\0'; x++)
+	{
+		x++
+	}	
+
+		return (x);
 }
